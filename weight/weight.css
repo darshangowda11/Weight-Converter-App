@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    place-content: center;
+    background-color: rgb(213, 245, 234);
+    height: 80vh;
+  }
+  main {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 50vh;
+    width: 40vw;
+  }
+  input,
+  h2 {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+  }
+  #grams {
+    background-color: rgb(104, 104, 244);
+  }
+  #kilograms {
+    background-color: rgb(78, 236, 78);
+  }
+  #ounces {
+    background-color: rgb(244, 52, 30);
+  }
